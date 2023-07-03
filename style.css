@@ -1,0 +1,149 @@
+    body {
+        background-image: linear-gradient(to right, rgb(16, 207, 240), rgb(10, 22, 111));
+        margin: 0px;
+        border: 0px;
+        border: 10px solid rgb(4, 4, 37);
+    }
+    
+    .last-section {
+        font-size: 16px;
+        font-family: "Times New Roman", Times, serif;
+        line-height: 30px;
+        word-spacing: 1px;
+        padding: 20px;
+    }
+    
+    .middle-section {
+        padding: 10px;
+    }
+    
+    .middle-section h2 {
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 2px;
+    }
+    
+    p {
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 30px;
+        word-spacing: 10%;
+        letter-spacing: 0.60px;
+    }
+    
+    footer p {
+        text-align: end;
+    }
+    /*------------------------*/
+    
+    .img-slider img {
+        height: 500px;
+        width: 600px;
+    }
+    
+    @keyframes slide {
+        0% {
+            left: 0px;
+        }
+        15% {
+            left: 100px;
+        }
+        20% {
+            left: -1080px;
+        }
+        32% {
+            left: -1080px;
+        }
+        35% {
+            left: -2160px;
+        }
+        47% {
+            left: -2160px;
+        }
+        50% {
+            left: -3240px;
+        }
+        63% {
+            left: -3240px;
+        }
+        66% {
+            left: -4320px;
+        }
+        79% {
+            left: -4320px;
+        }
+        82% {
+            left: -5400px;
+        }
+        100% {
+            left: 0px;
+        }
+    }
+    
+    .img-slider {
+        display: flex;
+        float: left;
+        position: relative;
+        width: 600px;
+        height: 500px;
+        animation-name: slide;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        transition-duration: 2s;
+    }
+    
+    h1 {
+        padding-top: 520px;
+        text-align: center;
+        font-size: 50px;
+        font-family: lucida calligraphy;
+        color: aliceblue;
+    }
+    
+    h1:hover {
+        background-image: linear-gradient(to right, rgb(230, 11, 189), rgb(134, 6, 226));
+        font-size: 60px;
+    }
+    
+    h4 {
+        text-align: center;
+    }
+    
+    h4:hover {
+        background-image: linear-gradient(to right, rgb(230, 11, 189), rgb(134, 6, 226));
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 25px;
+        font-family: lucida calligraphy;
+    }
+    
+    .screen {
+        background-image: linear-gradient(to right, rgb(103, 222, 243), rgb(151, 163, 249));
+    }
+    
+    .screen:hover {
+        background-image: linear-gradient(to right, rgb(230, 11, 189), rgb(134, 6, 226));
+    }
+    
+    h3:hover {
+        background-image: linear-gradient(to right, rgb(103, 222, 243), rgb(151, 163, 249));
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    footer {
+        color: aliceblue;
+    }
+    
+    footer:hover {
+        background-image: linear-gradient(to right, rgb(230, 11, 189), rgb(134, 6, 226));
+        text-align: center;
+        color: black;
+    }
+    
+    p:hover {
+        font-size: 20px;
+        color: aliceblue;
+    }
